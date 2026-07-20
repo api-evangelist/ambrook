@@ -1,0 +1,31 @@
+generated: '2026-07-17'
+method: searched
+source: https://ambrook.com/.well-known/oauth-authorization-server
+docs: https://ambrook.com/.well-known/oauth-authorization-server
+summary:
+  types: [oauth2]
+  oauth2_flows: [authorizationCode]
+  pkce: [S256]
+  scopes_count: 5
+schemes:
+- name: OAuth2
+  type: oauth2
+  flows:
+  - flow: authorizationCode
+    authorizationUrl: https://ambrook.com/oauth/mcp/authorize
+    tokenUrl: https://ambrook.com/api/v1/oauth/mcp/token
+    registrationUrl: https://ambrook.com/api/v1/oauth/mcp/register
+    pkce: S256
+    grantTypes: [authorization_code, refresh_token]
+    scopes:
+      mcp:readonly_graphql: Read-only access to the Ambrook GraphQL data surface via MCP
+      mcp:gateway: MCP gateway access
+      mcp:readonly_admin: Read-only administrative access via MCP
+      external_mcp:read: External MCP read access
+      export:download: Download exported reports and data
+  sources: [well-known/ambrook-oauth-authorization-server.json]
+notes: >-
+  Auth model is derived from Ambrook's public RFC 8414 OAuth authorization-server
+  metadata (scoped to its MCP surface). Ambrook publishes no OpenAPI, so this is
+  the authoritative public auth profile. Supports dynamic client registration
+  (RFC 7591) and PKCE.
