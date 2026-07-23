@@ -1,0 +1,32 @@
+generated: '2026-07-17'
+method: searched
+source: https://ambrook.com/.well-known/oauth-authorization-server
+docs: https://ambrook.com/.well-known/oauth-authorization-server
+schemes:
+- name: OAuth2
+  source: well-known/ambrook-oauth-authorization-server.json
+  flows:
+  - flow: authorizationCode
+    authorizationUrl: https://ambrook.com/oauth/mcp/authorize
+    tokenUrl: https://ambrook.com/api/v1/oauth/mcp/token
+scopes:
+- scope: mcp:readonly_graphql
+  description: Read-only access to the Ambrook GraphQL data surface via the MCP server
+  flows: [authorizationCode]
+  sources: [well-known/ambrook-oauth-authorization-server.json]
+- scope: mcp:gateway
+  description: MCP gateway access
+  flows: [authorizationCode]
+  sources: [well-known/ambrook-oauth-authorization-server.json]
+- scope: mcp:readonly_admin
+  description: Read-only administrative access via the MCP server
+  flows: [authorizationCode]
+  sources: [well-known/ambrook-oauth-authorization-server.json]
+- scope: external_mcp:read
+  description: External MCP read access
+  flows: [authorizationCode]
+  sources: [well-known/ambrook-oauth-authorization-server.json]
+- scope: export:download
+  description: Download exported reports and data
+  flows: [authorizationCode]
+  sources: [well-known/ambrook-oauth-authorization-server.json]

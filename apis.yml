@@ -1,7 +1,30 @@
 aid: ambrook
 name: Ambrook
-description: 'Ambrook is a company surfaced as a portfolio company of homebrew and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Ambrook is financial management software for farms, ranches, and the trades —
+  construction, trucking, manufacturing, and the interconnected businesses that
+  produce, build, and move physical goods. Founded in 2020 and based in New York,
+  it combines bookkeeping, invoicing, payments, and inventory in one platform,
+  with Schedule F/C tax alignment, enterprise tagging for tracking profitability
+  by business line, and cost-per-head livestock tracking. Positioned as a
+  QuickBooks alternative for agriculture and margin-sensitive industries, Ambrook
+  pairs a full-featured mobile app with U.S.-based, ag-centric support. It also
+  operates an OAuth-gated Model Context Protocol (MCP) server that lets AI agents
+  connect to a business's Ambrook data via a read-only GraphQL surface. Ambrook
+  raised a $26.1M Series A and is backed by investors including Homebrew.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://ambrook.com/img/share/default-og.png
 url: https://raw.githubusercontent.com/api-evangelist/ambrook/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,6 +38,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Fintech
+- Agriculture
+- Accounting
+- Bookkeeping
+- Payments
+- Farm Management
+- MCP
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +53,36 @@ maintainers:
 common:
 - type: Website
   url: https://ambrook.com
+- type: Pricing
+  url: https://ambrook.com/pricing
+- type: SignUp
+  url: https://ambrook.com/overview/get-started
+- type: Login
+  url: https://ambrook.com/login
+- type: Blog
+  url: https://ambrook.com/blog
+- type: Support
+  url: https://support.ambrook.com/en/
+- type: TermsOfService
+  url: https://ambrook.com/terms
+- type: PrivacyPolicy
+  url: https://ambrook.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/ambrook
+- type: MCPServer
+  url: mcp/ambrook-mcp.yml
+- type: Authentication
+  url: authentication/ambrook-authentication.yml
+- type: OAuthScopes
+  url: scopes/ambrook-scopes.yml
+- type: WellKnown
+  url: well-known/ambrook-well-known.yml
+- type: LLMsTxt
+  url: llms/ambrook-llms.txt
+- type: DomainSecurity
+  url: security/ambrook-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

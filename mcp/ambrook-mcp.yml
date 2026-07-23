@@ -1,0 +1,36 @@
+generated: '2026-07-17'
+method: searched
+status: published
+source: https://ambrook.com/.well-known/oauth-authorization-server
+server:
+  name: ambrook
+  transport: http
+  description: >-
+    Ambrook operates a hosted Model Context Protocol (MCP) server that lets AI
+    agents connect to a farm/trade business's Ambrook accounting data. Access is
+    gated by an OAuth 2.1 authorization-code flow (PKCE S256, refresh tokens,
+    dynamic client registration) advertised via an RFC 8414 authorization-server
+    metadata document. The published scopes expose read-only GraphQL, a gateway
+    surface, read-only admin, and report/export download. The MCP endpoint URL
+    itself is not publicly advertised (no RFC 9728 protected-resource metadata);
+    the OAuth authorization server is the authoritative public evidence.
+auth:
+  type: oauth2
+  flow: authorization_code
+  issuer: https://ambrook.com
+  authorization_endpoint: https://ambrook.com/oauth/mcp/authorize
+  token_endpoint: https://ambrook.com/api/v1/oauth/mcp/token
+  registration_endpoint: https://ambrook.com/api/v1/oauth/mcp/register
+  pkce: S256
+  grant_types: [authorization_code, refresh_token]
+  scopes:
+  - mcp:readonly_graphql
+  - mcp:gateway
+  - mcp:readonly_admin
+  - external_mcp:read
+  - export:download
+tools: []
+notes: >-
+  Tool/resource list is not published (server is OAuth-gated); scopes indicate a
+  read-only GraphQL data surface plus export/download. No candidate tools derived
+  because Ambrook publishes no OpenAPI to enumerate operations.

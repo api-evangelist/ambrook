@@ -1,0 +1,97 @@
+# Ambrook
+
+> Ambrook is financial management software for farms, ranches, construction, trucking, manufacturing, and the interconnected businesses that produce, build, and move the physical things our communities depend on. We combine bookkeeping, invoicing, payments, and inventory in one platform—with Schedule F/C tax alignment, enterprise tagging for tracking profitability by business line, and cost-per-head tracking for livestock operations. A QuickBooks alternative built for agriculture and industries where margins are tight and operations are complex.
+
+## Start Here
+
+- [Homepage](https://ambrook.com): Overview of Ambrook's platform and mission
+- [Product Tour](https://ambrook.com/features/tour): Interactive walkthrough of the platform
+- [Pricing](https://ambrook.com/pricing): Plans starting at $29/month; managed bookkeeping packages from $500
+- [Get Started](https://ambrook.com/overview/get-started): Sign up for a 30-day free trial
+- [Help Center](https://support.ambrook.com/en/): Searchable support articles and guides
+
+## Product Features
+
+### Core Platform
+
+- [All Features](https://ambrook.com/features/all): Complete list of platform capabilities
+- [Mobile App](https://ambrook.com/mobile-tour): Full accounting power on iOS and Android
+- [Vs QuickBooks](https://ambrook.com/compare/ambrook-vs-quickbooks): Detailed comparison with QuickBooks
+
+### Bookkeeping & Accounting
+
+- [Bookkeeping](https://ambrook.com/features/bookkeeping): Transaction management, bank connections, receipt scanning
+- [Chart of Accounts Overview](https://support.ambrook.com/en/articles/9450620-chart-of-accounts-overview): Categories, enterprises, and tagging system
+- [Enterprise Tags](https://support.ambrook.com/en/articles/8752019-enterprise-tags): Track profitability by business line (cow-calf, hay, trucking, etc.)
+- [Balance Sheet Management](https://support.ambrook.com/en/articles/9225547-balance-sheet-accounts-overview): Assets, liabilities, and equity tracking
+
+### Inventory
+
+- [Inventory Overview](https://ambrook.com/overview/inventory): Accounting-integrated inventory for producers and retailers
+- [Introduction to Inventory](https://support.ambrook.com/en/articles/12746983-introduction-to-inventory): Setup guide and key concepts
+- [How to Setup Inventory](https://support.ambrook.com/en/articles/12747019-how-to-setup-inventory): Step-by-step configuration
+- [Market Value Inventory](https://support.ambrook.com/en/articles/12785171-market-value-inventory): Balance sheets with book and market value
+
+### Payments & Banking
+
+- [Ambrook Wallet](https://support.ambrook.com/en/articles/8751932-what-is-the-ambrook-wallet): Business cash account with 1% APY
+- [Funding Your Wallet](https://support.ambrook.com/en/articles/8753124-funding-your-ambrook-wallet): Transfers and timing
+- [Ambrook Cards](https://support.ambrook.com/en/articles/9159955-activating-your-ambrook-wallet): Team debit cards with spending limits
+- [Paying Bills](https://support.ambrook.com/en/articles/11124096-paying-a-bill-from-ambrook-wallet): ACH, check mailing, and payment scheduling
+
+### Bills & Invoices
+
+- [Bills & Invoices Help](https://support.ambrook.com/en/collections/9573874-ambrook-wallet): Creating, sending, and managing bills and invoices
+- [Managing Contacts](https://support.ambrook.com/en/articles/9402600-managing-contacts-in-ambrook): Customers, vendors, and 1099 tracking
+
+### Reports & Exports
+
+- [Exports & Reports](https://support.ambrook.com/en/): P&L, Balance Sheet, Schedule F/C exports, enterprise-level reporting
+
+## Industries
+
+### Agriculture
+
+- [Farming](https://ambrook.com/overview/farming): Row crops, diversified farms, Schedule F alignment
+- [Ranching](https://ambrook.com/overview/ranchers): Cow-calf, stockers, cost-per-head tracking
+- [Equestrian](https://ambrook.com/overview/equestrian): Horse operations and rodeo professionals
+
+### Other Industries
+
+- [Construction](https://ambrook.com/overview/construction): Job costing and project tracking
+- [Contractors](https://ambrook.com/overview/contractors): General contractors and field service
+- [Trucking](https://ambrook.com/overview/trucking): Route profitability and mobile bookkeeping
+- [Property Management](https://ambrook.com/overview/real-estate): Real estate and rental operations
+
+## Services
+
+- [Full Service](https://ambrook.com/overview/ambrook-full-service): Collaborative bookkeeping with dedicated account manager, monthly reconciliation, and business reviews
+- [Ambrook for Accountants](https://ambrook.com/features/accountants): Collaborative tools for financial professionals
+- [Certified Advisor Program](https://ambrook.com/overview/certified-advisor): Free training, client discounts, priority support
+- [Introduction for Accountants](https://support.ambrook.com/en/articles/9438085-introduction-to-ambrook-for-accountants): Platform guide for accountants
+
+## Help & Support
+
+- [Getting Started](https://support.ambrook.com/en/collections/7531413-getting-started): Onboarding guides
+- [Contacting Support](https://support.ambrook.com/en/articles/9612446-contacting-ambrook-support): Chat, email, phone options
+- [Using Ambrook on Mobile](https://support.ambrook.com/en/articles/8752027-using-ambrook-on-mobile): Mobile app features
+- [Setting up Bank Connections](https://support.ambrook.com/en/articles/9238171-setting-up-connected-accounts): Plaid, MoneyKit, and manual imports
+
+## Optional
+
+- [Customer Stories](https://ambrook.com/case-studies): Real customers and their results
+- [Ambrook Education](https://ambrook.com/education): Financial literacy for operators
+- [Offrange Publication](https://ambrook.com/offrange): Editorially-independent stories on modern agriculture
+- [Funding Library](https://ambrook.com/funding): Database of grants, loans, and programs for ag
+- [About](https://ambrook.com/about): Company mission, values, and key facts (founded by Mackenzie Burnett, Jeff Anders, Dan Schlosser; $29.1M raised; 8,000+ customers)
+- [Careers](https://ambrook.com/careers): Open positions
+- [Blog](https://ambrook.com/blog): Company news and product updates
+- [Press Kit](https://ambrook.com/overview/press-kit): Logos and brand assets
+
+## Contact
+
+- [Website](https://ambrook.com)
+- [Help Center](https://support.ambrook.com)
+- [Email](mailto:support@ambrook.com)
+- [LinkedIn](https://www.linkedin.com/company/ambrook)
+- [Instagram](https://www.instagram.com/ambrookag)
