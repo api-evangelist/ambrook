@@ -12,6 +12,17 @@ description: >-
   operates an OAuth-gated Model Context Protocol (MCP) server that lets AI agents
   connect to a business's Ambrook data via a read-only GraphQL surface. Ambrook
   raised a $26.1M Series A and is backed by investors including Homebrew.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
