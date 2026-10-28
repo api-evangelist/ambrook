@@ -64,6 +64,99 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ambrook is a company surfaced as a portfolio company of homebrew and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.
+Ambrook is financial management software for farms, ranches, and the trades — construction, trucking, manufacturing, and the interconnected businesses that produce, build, and move physical goods. Founded in 2020 and based in New York, it combines bookkeeping, invoicing, payments, and inventory in one platform, with Schedule F/C tax alignment, enterprise tagging for tracking profitability by business line, and cost-per-head livestock tracking. Positioned as a QuickBooks alternative for agriculture and margin-sensitive industries, Ambrook pairs a full-featured mobile app with U.S.-based, ag-centric support. It also operates an OAuth-gated Model Context Protocol (MCP) server that lets AI agents connect to a business's Ambrook data via a read-only GraphQL surface. Ambrook raised a $26.1M Series A and is backed by investors including Homebrew.
 
-Backed by: homebrew — https://ambrook.com
+**Areas:** Company · Fintech · Agriculture · Accounting · Bookkeeping · Payments · Farm Management · MCP
+
+## Ambrook on APIs.io
+
+Everything profiled for Ambrook is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ambrook/](https://apis.io/providers/ambrook/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [ambrook](https://apis.io/servers/ambrook/ambrook/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ambrook Authentication](https://apis.io/security/ambrook/ambrook-authentication/)
+- [Ambrook Domain Security](https://apis.io/security/ambrook/ambrook-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Ambrook Scopes](https://apis.io/scopes/ambrook/ambrook-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ambrook.com)
+- [Pricing](https://ambrook.com/pricing)
+- [Sign up](https://ambrook.com/overview/get-started)
+- [Support](https://support.ambrook.com/en/)
+- [Blog](https://ambrook.com/blog)
+- [Terms of service](https://ambrook.com/terms)
+- [Privacy policy](https://ambrook.com/privacy)
+- [GitHub](https://github.com/ambrook)
+
+## API Evangelist rating
+
+**Kin Score 19.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 44.7 |
+
+**Agent readiness 18.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 26.8** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ambrook/](https://apis.io/providers/ambrook/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ambrook: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ambrook/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
